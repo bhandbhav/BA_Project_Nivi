@@ -42,8 +42,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Constants & File Paths ────────────────────────────────────────────────────
-LOG_FILE       = Path("outputs/nivi_oracle_complete.csv")
-PORTFOLIO_FILE = Path("data/static/portfolio.json")
+BASE_DIR       = Path(__file__).resolve().parent.parent
+LOG_FILE       = BASE_DIR / "outputs" / "nivi_oracle_complete.csv"
+PORTFOLIO_FILE = BASE_DIR / "data" / "static" / "portfolio.json"
 
 BOND_ETFS = {
     "LIQUIDBEES.NS": {"Type": "Cash",  "Risk": 1, "Name": "Liquid BeES (Preservation)"},
