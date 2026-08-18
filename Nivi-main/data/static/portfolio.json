@@ -1,0 +1,19 @@
+{
+  "cash": 250000.0,
+  "equity_value": 750000.0,
+  "total_value": 1000000.0,
+  "holdings": {
+    "COALINDIA.NS": {"qty": 50, "avg_price": 420.0},
+    "BSE.NS": {"qty": 30, "avg_price": 2300.0},
+    "SBIN.NS": {"qty": 40, "avg_price": 750.0},
+    "CANBK.NS": {"qty": 70, "avg_price": 110.0},
+    "BANKINDIA.NS": {"qty": 80, "avg_price": 125.0},
+    "INDIGO.NS": {"qty": 15, "avg_price": 4100.0},
+    "SAIL.NS": {"qty": 100, "avg_price": 135.0},
+    "PVRINOX.NS": {"qty": 40, "avg_price": 1450.0},
+    "GICRE.NS": {"qty": 60, "avg_price": 380.0},
+    "CHALET.NS": {"qty": 35, "avg_price": 820.0},
+    "CDSL.NS": {"qty": 45, "avg_price": 1200.0},
+    "BPCL.NS": {"qty": 50, "avg_price": 610.0}
+  }
+}

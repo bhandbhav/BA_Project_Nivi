@@ -1,0 +1,1375 @@
+2026-08-18 04:11:54 | INFO | sector_map | Trying NSE URL: https://archives.nseindia.com/content/indices/ind_nifty500list.csv
+2026-08-18 04:11:55 | INFO | sector_map | Fetched 500 constituents from NSE.
+2026-08-18 04:11:55 | INFO | sector_map | Sector map saved → data/cache/sector_map.json (500 stocks)
+2026-08-18 04:11:55 | INFO | utils | Downloading prices for 1 tickers (period=1mo, interval=1d)...
+2026-08-18 04:11:56 | INFO | utils |   Chunk 1/1 — 1 tickers loaded
+2026-08-18 04:11:56 | INFO | utils | Price data ready: 21 days × 1 tickers
+2026-08-18 04:11:56 | INFO | utils | Prices cached → 928d158296bb_prices_1mo_1d_1.parquet
+2026-08-18 04:12:09 | INFO | utils | Downloading prices for 1 tickers (period=1y, interval=1d)...
+2026-08-18 04:12:09 | INFO | utils |   Chunk 1/1 — 1 tickers loaded
+2026-08-18 04:12:09 | INFO | utils | Downloading prices for 1 tickers (period=1y, interval=1d)...
+2026-08-18 04:12:09 | INFO | utils | Downloading prices for 1 tickers (period=1y, interval=1d)...
+2026-08-18 04:12:09 | INFO | utils |   Chunk 1/1 — 1 tickers loaded
+2026-08-18 04:12:09 | INFO | utils |   Chunk 1/1 — 1 tickers loaded
+2026-08-18 04:12:09 | INFO | utils | Price data ready: 245 days × 1 tickers
+2026-08-18 04:12:09 | INFO | utils | Prices cached → 27214ae25abf_prices_1y_1d_1.parquet
+2026-08-18 04:12:09 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:09 | INFO | utils | Price data ready: 245 days × 1 tickers
+2026-08-18 04:12:09 | INFO | utils | Price data ready: 245 days × 1 tickers
+2026-08-18 04:12:09 | INFO | utils | Prices cached → 27214ae25abf_prices_1y_1d_1.parquet
+2026-08-18 04:12:09 | INFO | utils | Prices cached → 27214ae25abf_prices_1y_1d_1.parquet
+2026-08-18 04:12:09 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:09 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:10 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:15 | INFO | oracle_engine | 3MINDIA.NS | STRONG SELL | Score: 17.6 [V:0 Q:9 M:2 I:0 S:5]
+2026-08-18 04:12:15 | INFO | oracle_engine | ABB.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:12:15 | INFO | oracle_engine | 360ONE.NS | SELL | Score: 20.9 [V:0 Q:9 M:5 I:0 S:5]
+2026-08-18 04:12:15 | INFO | oracle_engine | ACC.NS | SELL | Score: 30.9 [V:14 Q:9 M:2 I:0 S:4]
+2026-08-18 04:12:19 | INFO | fundamental_engine | ACMESOLAR.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:20 | INFO | fundamental_engine | AUBANK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:12:24 | INFO | fundamental_engine | AADHARHFC.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:27 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:28 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:31 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:32 | INFO | oracle_engine | AIAENG.NS | STRONG SELL | Score: 18.8 [V:0 Q:12 M:2 I:0 S:3]
+2026-08-18 04:12:33 | INFO | oracle_engine | APLAPOLLO.NS | SELL | Score: 21.1 [V:0 Q:12 M:4 I:0 S:4]
+2026-08-18 04:12:36 | INFO | fundamental_engine | AAVAS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:36 | INFO | oracle_engine | AWL.NS | SELL | Score: 24.6 [V:0 Q:15 M:5 I:0 S:2]
+2026-08-18 04:12:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:37 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:40 | INFO | fundamental_engine | ACE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:41 | INFO | oracle_engine | AARTIIND.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:12:41 | INFO | fundamental_engine | ADANIENT.NS REJECTED — Pledge 28.1% > 15.0% gate
+2026-08-18 04:12:41 | INFO | fundamental_engine | ADANIGREEN.NS REJECTED — Pledge 31.4% > 15.0% gate
+2026-08-18 04:12:46 | INFO | fundamental_engine | ADANIPORTS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:46 | INFO | fundamental_engine | ADANIPOWER.NS REJECTED — Pledge 19.8% > 15.0% gate
+2026-08-18 04:12:46 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:46 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:49 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:50 | INFO | fundamental_engine | ATGL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:51 | INFO | oracle_engine | ABBOTINDIA.NS | STRONG SELL | Score: 9.9 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:12:53 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:12:53 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:12:53 | INFO | oracle_engine | ACUTAAS.NS | SELL | Score: 24.2 [V:0 Q:15 M:2 I:0 S:5]
+2026-08-18 04:12:55 | INFO | fundamental_engine | ABCAPITAL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:55 | INFO | fundamental_engine | ABFRL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:12:59 | INFO | oracle_engine | ADANIENSOL.NS | STRONG SELL | Score: 15.8 [V:0 Q:12 M:0 I:0 S:2]
+2026-08-18 04:13:00 | INFO | fundamental_engine | ABSLAMC.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:13:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:04 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:05 | WARNING | fundamental_engine | Graham failed for ABREL.NS: Negative EPS (-31.85) or BVPS (334.576)
+2026-08-18 04:13:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:06 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:06 | INFO | oracle_engine | ABLBL.NS | STRONG SELL | Score: 14.0 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:13:09 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:09 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:09 | INFO | oracle_engine | ABREL.NS | STRONG SELL | Score: 19.3 [V:0 Q:12 M:2 I:0 S:4]
+2026-08-18 04:13:09 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:09 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:12 | INFO | oracle_engine | CPPLUS.NS | STRONG SELL | Score: 16.2 [V:0 Q:9 M:6 I:0 S:0]
+2026-08-18 04:13:12 | INFO | fundamental_engine | AFCONS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:13:13 | INFO | oracle_engine | AEGISLOG.NS | SELL | Score: 23.0 [V:0 Q:15 M:2 I:0 S:4]
+2026-08-18 04:13:15 | INFO | fundamental_engine | AJANTPHARM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:13:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:16 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:19 | INFO | oracle_engine | AEGISVOPAK.NS | STRONG SELL | Score: 13.6 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:13:22 | INFO | fundamental_engine | ARE&M.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:13:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:22 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:23 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:23 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:27 | INFO | oracle_engine | AFFLE.NS | STRONG SELL | Score: 17.5 [V:0 Q:9 M:5 I:0 S:2]
+2026-08-18 04:13:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:28 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:28 | INFO | oracle_engine | ALKEM.NS | STRONG SELL | Score: 12.3 [V:0 Q:9 M:0 I:0 S:2]
+2026-08-18 04:13:31 | INFO | fundamental_engine | AMBUJACEM.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:13:33 | INFO | oracle_engine | ABDL.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:2 I:0 S:3]
+2026-08-18 04:13:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:33 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:36 | INFO | fundamental_engine | ANANTRAJ.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:13:39 | INFO | oracle_engine | AMBER.NS | SELL | Score: 24.3 [V:0 Q:15 M:3 I:0 S:4]
+2026-08-18 04:13:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:41 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:46 | INFO | oracle_engine | ANANDRATHI.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:13:46 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:46 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:49 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:51 | INFO | oracle_engine | ANGELONE.NS | STRONG SELL | Score: 17.3 [V:0 Q:12 M:0 I:0 S:4]
+2026-08-18 04:13:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:52 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:13:54 | INFO | oracle_engine | ANTHEM.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:13:56 | INFO | oracle_engine | ANURAS.NS | SELL | Score: 21.0 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:13:58 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:13:58 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:01 | INFO | fundamental_engine | APTUS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:03 | INFO | oracle_engine | APARINDS.NS | SELL | Score: 21.4 [V:0 Q:12 M:4 I:0 S:4]
+2026-08-18 04:14:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:04 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:07 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:08 | INFO | fundamental_engine | ASHOKLEY.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:09 | INFO | oracle_engine | APOLLOHOSP.NS | SELL | Score: 21.6 [V:0 Q:13 M:2 I:3 S:1]
+2026-08-18 04:14:12 | INFO | oracle_engine | APOLLOTYRE.NS | SELL | Score: 20.5 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:14:15 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:15 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:20 | INFO | oracle_engine | ASAHIINDIA.NS | SELL | Score: 20.5 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:14:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:22 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:22 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:25 | INFO | oracle_engine | ASIANPAINT.NS | SELL | Score: 23.4 [V:0 Q:16 M:2 I:0 S:3]
+2026-08-18 04:14:25 | INFO | fundamental_engine | ATHERENERG.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:25 | INFO | oracle_engine | ASTERDM.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:14:25 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:25 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:28 | INFO | oracle_engine | ASTRAL.NS | SELL | Score: 24.2 [V:0 Q:12 M:5 I:0 S:5]
+2026-08-18 04:14:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:33 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:34 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:35 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:35 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:36 | INFO | oracle_engine | ATUL.NS | SELL | Score: 25.3 [V:0 Q:18 M:5 I:0 S:0]
+2026-08-18 04:14:37 | INFO | oracle_engine | AIIL.NS | STRONG SELL | Score: 12.1 [V:0 Q:9 M:2 I:0 S:0]
+2026-08-18 04:14:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:38 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:38 | INFO | oracle_engine | AUROPHARMA.NS | SELL | Score: 22.2 [V:0 Q:12 M:5 I:0 S:3]
+2026-08-18 04:14:39 | INFO | fundamental_engine | AXISBANK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:14:40 | INFO | fundamental_engine | BEML.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:41 | INFO | oracle_engine | DMART.NS | STRONG SELL | Score: 16.5 [V:0 Q:9 M:4 I:2 S:0]
+2026-08-18 04:14:43 | INFO | fundamental_engine | BSE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:44 | INFO | fundamental_engine | BAJFINANCE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:47 | INFO | fundamental_engine | BAJAJFINSV.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:48 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:49 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:51 | INFO | fundamental_engine | BAJAJHFL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:51 | INFO | oracle_engine | BLS.NS | STRONG SELL | Score: 18.3 [V:0 Q:12 M:4 I:0 S:1]
+2026-08-18 04:14:52 | INFO | oracle_engine | BAJAJ-AUTO.NS | STRONG SELL | Score: 18.8 [V:0 Q:9 M:2 I:3 S:3]
+2026-08-18 04:14:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:14:54 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:14:54 | INFO | fundamental_engine | BALRAMCHIN.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:14:56 | INFO | fundamental_engine | BANDHANBNK.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:14:57 | INFO | oracle_engine | BAJAJHLDNG.NS | SELL | Score: 21.0 [V:6 Q:9 M:4 I:0 S:0]
+2026-08-18 04:15:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:01 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:03 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:03 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:05 | INFO | oracle_engine | BALKRISIND.NS | STRONG SELL | Score: 15.5 [V:0 Q:9 M:4 I:0 S:1]
+2026-08-18 04:15:06 | INFO | oracle_engine | BANKBARODA.NS | HOLD / NEUTRAL | Score: 57.6 [V:35 Q:12 M:5 I:0 S:0]
+2026-08-18 04:15:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:06 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:07 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:10 | INFO | oracle_engine | BANKINDIA.NS | HOLD / NEUTRAL | Score: 58.9 [V:35 Q:12 M:5 I:0 S:2]
+2026-08-18 04:15:10 | INFO | fundamental_engine | BAYERCROP.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:15:10 | INFO | oracle_engine | MAHABANK.NS | HOLD / NEUTRAL | Score: 56.9 [V:35 Q:9 M:5 I:0 S:3]
+2026-08-18 04:15:15 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:15 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:18 | INFO | oracle_engine | BATAINDIA.NS | SELL | Score: 27.9 [V:0 Q:18 M:4 I:0 S:4]
+2026-08-18 04:15:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:19 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:19 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:20 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:22 | INFO | oracle_engine | BELRISE.NS | SELL | Score: 21.3 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:15:22 | INFO | oracle_engine | BDL.NS | SELL | Score: 24.0 [V:0 Q:12 M:4 I:5 S:0]
+2026-08-18 04:15:22 | INFO | oracle_engine | BERGEPAINT.NS | STRONG SELL | Score: 17.7 [V:0 Q:9 M:5 I:0 S:2]
+2026-08-18 04:15:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:28 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:33 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:33 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:33 | INFO | oracle_engine | BEL.NS | STRONG SELL | Score: 16.5 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:15:36 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:36 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:38 | INFO | oracle_engine | BHARATFORG.NS | STRONG SELL | Score: 10.3 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:15:38 | INFO | oracle_engine | BPCL.NS | HOLD / NEUTRAL | Score: 50.6 [V:35 Q:9 M:2 I:0 S:0]
+2026-08-18 04:15:41 | INFO | oracle_engine | BHEL.NS | SELL | Score: 25.7 [V:0 Q:15 M:6 I:0 S:3]
+2026-08-18 04:15:46 | INFO | fundamental_engine | GROWW.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:15:47 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:47 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:50 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:50 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:15:51 | WARNING | technical_engine | SHAP weights not found. Defaulting to baseline importance.
+2026-08-18 04:15:51 | INFO | oracle_engine | BHARTIARTL.NS | SELL | Score: 29.0 [V:0 Q:22 M:2 I:0 S:2]
+2026-08-18 04:15:55 | INFO | oracle_engine | BIKAJI.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:0 I:0 S:5]
+2026-08-18 04:15:55 | INFO | oracle_engine | BHARTIHEXA.NS | HOLD / NEUTRAL | Score: 37.4 [V:0 Q:27 M:2 I:0 S:5]
+2026-08-18 04:16:31 | INFO | utils | Downloading prices for 10 tickers (period=3y, interval=1d)...
+2026-08-18 04:16:32 | INFO | utils |   Chunk 1/1 — 10 tickers loaded
+2026-08-18 04:16:32 | INFO | utils | Price data ready: 743 days × 10 tickers
+2026-08-18 04:16:32 | INFO | utils | Prices cached → cacf72e60cad_prices_3y_1d_10.parquet
+2026-08-18 04:16:59 | INFO | sector_map | Loading sector map from cache (age: 0d).
+2026-08-18 04:16:59 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 04:17:13 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:13 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:13 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:18 | INFO | oracle_engine | ACC.NS | SELL | Score: 29.7 [V:14 Q:9 M:1 I:0 S:4]
+2026-08-18 04:17:18 | INFO | oracle_engine | 360ONE.NS | STRONG SELL | Score: 19.4 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:17:18 | INFO | oracle_engine | 3MINDIA.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:17:19 | INFO | oracle_engine | ABB.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:17:22 | INFO | fundamental_engine | ACMESOLAR.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:23 | INFO | fundamental_engine | AUBANK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:17:27 | INFO | fundamental_engine | AADHARHFC.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:32 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:38 | INFO | oracle_engine | AIAENG.NS | STRONG SELL | Score: 17.6 [V:0 Q:12 M:1 I:0 S:3]
+2026-08-18 04:17:38 | INFO | oracle_engine | APLAPOLLO.NS | SELL | Score: 20.5 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:17:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:42 | INFO | fundamental_engine | AAVAS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:43 | INFO | oracle_engine | AWL.NS | SELL | Score: 23.1 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:17:47 | INFO | fundamental_engine | ACE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:48 | INFO | oracle_engine | AARTIIND.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:17:48 | INFO | fundamental_engine | ADANIENT.NS REJECTED — Pledge 28.1% > 15.0% gate
+2026-08-18 04:17:48 | INFO | fundamental_engine | ADANIGREEN.NS REJECTED — Pledge 31.4% > 15.0% gate
+2026-08-18 04:17:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:52 | INFO | fundamental_engine | ADANIPORTS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:52 | INFO | fundamental_engine | ADANIPOWER.NS REJECTED — Pledge 19.8% > 15.0% gate
+2026-08-18 04:17:57 | INFO | fundamental_engine | ATGL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:17:58 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:17:59 | INFO | oracle_engine | ABBOTINDIA.NS | STRONG SELL | Score: 9.9 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:18:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:02 | INFO | fundamental_engine | ABCAPITAL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:03 | INFO | fundamental_engine | ABFRL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:05 | INFO | oracle_engine | ACUTAAS.NS | SELL | Score: 22.9 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:18:06 | INFO | oracle_engine | ADANIENSOL.NS | STRONG SELL | Score: 15.8 [V:0 Q:12 M:0 I:0 S:2]
+2026-08-18 04:18:08 | INFO | fundamental_engine | ABSLAMC.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:18:15 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:16 | WARNING | fundamental_engine | Graham failed for ABREL.NS: Negative EPS (-31.85) or BVPS (334.576)
+2026-08-18 04:18:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:19 | INFO | oracle_engine | ABLBL.NS | STRONG SELL | Score: 14.0 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:18:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:22 | INFO | oracle_engine | ABREL.NS | STRONG SELL | Score: 18.0 [V:0 Q:12 M:1 I:0 S:4]
+2026-08-18 04:18:22 | INFO | oracle_engine | CPPLUS.NS | STRONG SELL | Score: 14.7 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:18:24 | INFO | oracle_engine | AEGISLOG.NS | SELL | Score: 21.8 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:18:25 | INFO | fundamental_engine | AFCONS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:28 | INFO | fundamental_engine | AJANTPHARM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:36 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:38 | INFO | oracle_engine | AFFLE.NS | STRONG SELL | Score: 16.0 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:18:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:41 | INFO | oracle_engine | ALKEM.NS | STRONG SELL | Score: 12.3 [V:0 Q:9 M:0 I:0 S:2]
+2026-08-18 04:18:41 | INFO | fundamental_engine | ARE&M.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:42 | WARNING | fundamental_engine | Graham failed for AEGISVOPAK.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:18:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:44 | INFO | oracle_engine | ABDL.NS | STRONG SELL | Score: 14.1 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:18:45 | INFO | fundamental_engine | AMBUJACEM.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:18:48 | INFO | oracle_engine | AEGISVOPAK.NS | STRONG SELL | Score: 13.6 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:18:48 | INFO | fundamental_engine | ANANTRAJ.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:18:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:18:56 | INFO | oracle_engine | AMBER.NS | SELL | Score: 23.1 [V:0 Q:15 M:2 I:0 S:4]
+2026-08-18 04:18:59 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:02 | INFO | oracle_engine | ANANDRATHI.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:19:06 | INFO | oracle_engine | ANGELONE.NS | STRONG SELL | Score: 17.3 [V:0 Q:12 M:0 I:0 S:4]
+2026-08-18 04:19:07 | INFO | oracle_engine | ANTHEM.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:19:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:17 | INFO | oracle_engine | ANURAS.NS | SELL | Score: 20.8 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:19:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:21 | INFO | fundamental_engine | APTUS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:19:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:22 | INFO | oracle_engine | APARINDS.NS | SELL | Score: 20.8 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:19:26 | INFO | oracle_engine | APOLLOHOSP.NS | SELL | Score: 20.3 [V:0 Q:13 M:1 I:3 S:1]
+2026-08-18 04:19:26 | INFO | fundamental_engine | ASHOKLEY.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:19:29 | INFO | oracle_engine | APOLLOTYRE.NS | STRONG SELL | Score: 19.9 [V:0 Q:12 M:3 I:0 S:3]
+2026-08-18 04:19:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:39 | INFO | oracle_engine | ASAHIINDIA.NS | STRONG SELL | Score: 19.8 [V:0 Q:15 M:3 I:0 S:0]
+2026-08-18 04:19:40 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:40 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:44 | INFO | fundamental_engine | ATHERENERG.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:19:45 | INFO | oracle_engine | ASIANPAINT.NS | SELL | Score: 22.1 [V:0 Q:16 M:1 I:0 S:3]
+2026-08-18 04:19:45 | INFO | oracle_engine | ASTERDM.NS | STRONG SELL | Score: 15.0 [V:0 Q:9 M:2 I:0 S:3]
+2026-08-18 04:19:47 | INFO | oracle_engine | ASTRAL.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:19:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:58 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:58 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:19:59 | INFO | oracle_engine | ATUL.NS | SELL | Score: 23.8 [V:0 Q:18 M:4 I:0 S:0]
+2026-08-18 04:19:59 | INFO | oracle_engine | AUROPHARMA.NS | SELL | Score: 20.7 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:20:01 | INFO | oracle_engine | AIIL.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:20:02 | INFO | fundamental_engine | AXISBANK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:20:02 | INFO | oracle_engine | DMART.NS | STRONG SELL | Score: 15.9 [V:0 Q:9 M:3 I:2 S:0]
+2026-08-18 04:20:03 | INFO | fundamental_engine | BEML.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:06 | INFO | fundamental_engine | BSE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:06 | INFO | fundamental_engine | BAJFINANCE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:09 | INFO | fundamental_engine | BAJAJFINSV.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:13 | INFO | fundamental_engine | BAJAJHFL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:14 | INFO | oracle_engine | BLS.NS | STRONG SELL | Score: 17.7 [V:0 Q:12 M:3 I:0 S:1]
+2026-08-18 04:20:15 | INFO | oracle_engine | BAJAJ-AUTO.NS | STRONG SELL | Score: 17.5 [V:0 Q:9 M:1 I:3 S:3]
+2026-08-18 04:20:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:18 | INFO | fundamental_engine | BALRAMCHIN.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:20:18 | INFO | fundamental_engine | BANDHANBNK.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:20 | INFO | oracle_engine | BAJAJHLDNG.NS | SELL | Score: 20.4 [V:6 Q:9 M:4 I:0 S:0]
+2026-08-18 04:20:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:25 | INFO | oracle_engine | BALKRISIND.NS | STRONG SELL | Score: 14.9 [V:0 Q:9 M:3 I:0 S:1]
+2026-08-18 04:20:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:30 | INFO | oracle_engine | BANKBARODA.NS | HOLD / NEUTRAL | Score: 56.0 [V:35 Q:12 M:4 I:0 S:0]
+2026-08-18 04:20:31 | INFO | oracle_engine | BANKINDIA.NS | HOLD / NEUTRAL | Score: 57.4 [V:35 Q:12 M:4 I:0 S:2]
+2026-08-18 04:20:32 | INFO | oracle_engine | MAHABANK.NS | HOLD / NEUTRAL | Score: 55.4 [V:35 Q:9 M:4 I:0 S:3]
+2026-08-18 04:20:34 | INFO | fundamental_engine | BAYERCROP.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:20:35 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:38 | INFO | oracle_engine | BATAINDIA.NS | SELL | Score: 27.3 [V:0 Q:18 M:3 I:0 S:4]
+2026-08-18 04:20:40 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:42 | INFO | oracle_engine | BELRISE.NS | SELL | Score: 20.7 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:20:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:44 | INFO | oracle_engine | BERGEPAINT.NS | STRONG SELL | Score: 16.2 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:20:46 | INFO | oracle_engine | BDL.NS | SELL | Score: 23.4 [V:0 Q:12 M:4 I:5 S:0]
+2026-08-18 04:20:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:51 | INFO | oracle_engine | BEL.NS | STRONG SELL | Score: 15.9 [V:0 Q:9 M:3 I:0 S:2]
+2026-08-18 04:20:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:53 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:20:55 | INFO | oracle_engine | BHARATFORG.NS | STRONG SELL | Score: 10.3 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:20:56 | INFO | oracle_engine | BHEL.NS | SELL | Score: 24.2 [V:0 Q:15 M:4 I:0 S:3]
+2026-08-18 04:20:59 | INFO | oracle_engine | BPCL.NS | HOLD / NEUTRAL | Score: 49.3 [V:35 Q:9 M:1 I:0 S:0]
+2026-08-18 04:21:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:03 | INFO | fundamental_engine | GROWW.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:21:05 | INFO | oracle_engine | BHARTIARTL.NS | SELL | Score: 27.8 [V:0 Q:22 M:1 I:0 S:2]
+2026-08-18 04:21:05 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:08 | INFO | oracle_engine | BHARTIHEXA.NS | HOLD / NEUTRAL | Score: 36.1 [V:0 Q:27 M:1 I:0 S:5]
+2026-08-18 04:21:09 | INFO | oracle_engine | BIKAJI.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:0 I:0 S:5]
+2026-08-18 04:21:13 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:16 | INFO | oracle_engine | BIOCON.NS | SELL | Score: 20.4 [V:0 Q:15 M:0 I:0 S:4]
+2026-08-18 04:21:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:17 | INFO | oracle_engine | BSOFT.NS | SELL | Score: 27.5 [V:1 Q:15 M:4 I:0 S:5]
+2026-08-18 04:21:18 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:20 | INFO | oracle_engine | BLUEDART.NS | SELL | Score: 22.4 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:21:21 | INFO | oracle_engine | BLUEJET.NS | STRONG SELL | Score: 16.5 [V:0 Q:12 M:1 I:0 S:2]
+2026-08-18 04:21:25 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:27 | INFO | oracle_engine | BLUESTARCO.NS | STRONG SELL | Score: 14.4 [V:0 Q:9 M:0 I:0 S:4]
+2026-08-18 04:21:30 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:30 | WARNING | fundamental_engine | Graham failed for FIRSTCRY.NS: Negative EPS (-2.58) or BVPS (100.331)
+2026-08-18 04:21:30 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:30 | INFO | fundamental_engine | BRIGADE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:21:32 | INFO | oracle_engine | BOSCHLTD.NS | STRONG SELL | Score: 18.7 [V:0 Q:9 M:3 I:0 S:5]
+2026-08-18 04:21:33 | INFO | oracle_engine | FIRSTCRY.NS | STRONG SELL | Score: 18.7 [V:0 Q:12 M:0 I:0 S:5]
+2026-08-18 04:21:35 | INFO | fundamental_engine | MAPMYINDIA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:21:37 | ERROR | yfinance | 
+1 Failed download:
+2026-08-18 04:21:37 | ERROR | yfinance | ['BBTC.BO']: TypeError("'NoneType' object is not subscriptable")
+2026-08-18 04:21:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:39 | INFO | oracle_engine | BBTC.NS | STRONG BUY | Score: 100.0 [V:35 Q:18 M:1 I:nan S:0]
+2026-08-18 04:21:42 | INFO | oracle_engine | BRITANNIA.NS | SELL | Score: 23.9 [V:0 Q:15 M:4 I:2 S:1]
+2026-08-18 04:21:44 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:47 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:48 | INFO | oracle_engine | CCL.NS | SELL | Score: 25.3 [V:0 Q:18 M:0 I:0 S:5]
+2026-08-18 04:21:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:52 | INFO | oracle_engine | CESC.NS | STRONG SELL | Score: 19.8 [V:5 Q:9 M:4 I:0 S:0]
+2026-08-18 04:21:53 | INFO | fundamental_engine | CRISIL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:21:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:21:55 | INFO | oracle_engine | CGPOWER.NS | STRONG SELL | Score: 13.9 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:21:59 | INFO | oracle_engine | CIEINDIA.NS | SELL | Score: 23.1 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:22:00 | INFO | fundamental_engine | CANHLIFE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:22:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:09 | INFO | oracle_engine | CANFINHOME.NS | HOLD / NEUTRAL | Score: 52.4 [V:35 Q:9 M:4 I:0 S:0]
+2026-08-18 04:22:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:12 | INFO | oracle_engine | CANBK.NS | HOLD / NEUTRAL | Score: 64.2 [V:35 Q:15 M:3 I:2 S:3]
+2026-08-18 04:22:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:18 | INFO | oracle_engine | CGCL.NS | STRONG SELL | Score: 13.9 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:22:21 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:24 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:26 | INFO | oracle_engine | CARBORUNIV.NS | STRONG SELL | Score: 19.4 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:22:28 | WARNING | oracle_engine | DOL/DFL failed for CAPLIPOINT.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:22:28 | INFO | oracle_engine | CAPLIPOINT.NS | STRONG SELL | Score: 13.3 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:22:29 | INFO | oracle_engine | CARTRADE.NS | STRONG SELL | Score: 13.0 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:22:30 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:33 | INFO | fundamental_engine | CENTRALBK.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:22:35 | INFO | oracle_engine | CASTROLIND.NS | STRONG SELL | Score: 17.6 [V:0 Q:9 M:3 I:0 S:4]
+2026-08-18 04:22:37 | INFO | fundamental_engine | CDSL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:22:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:43 | WARNING | fundamental_engine | DCF failed for CHALET.NS: Could not get shares outstanding
+2026-08-18 04:22:43 | INFO | oracle_engine | CEATLTD.NS | STRONG SELL | Score: 16.9 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:22:45 | INFO | oracle_engine | CEMPRO.NS | STRONG SELL | Score: 19.8 [V:0 Q:12 M:2 I:0 S:4]
+2026-08-18 04:22:46 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:50 | INFO | oracle_engine | CHALET.NS | STRONG SELL | Score: 15.6 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:22:50 | INFO | fundamental_engine | CHOICEIN.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:22:52 | INFO | oracle_engine | CHAMBLFERT.NS | HOLD / NEUTRAL | Score: 58.6 [V:35 Q:12 M:4 I:0 S:3]
+2026-08-18 04:22:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:22:55 | INFO | fundamental_engine | CIPLA.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:22:58 | INFO | oracle_engine | CHENNPETRO.NS | HOLD / NEUTRAL | Score: 63.5 [V:35 Q:18 M:4 I:0 S:1]
+2026-08-18 04:22:59 | INFO | fundamental_engine | CUB.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:22:59 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:01 | INFO | fundamental_engine | CLEAN.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:23:02 | INFO | oracle_engine | CHOLAHLDNG.NS | HOLD / NEUTRAL | Score: 38.9 [V:19 Q:9 M:4 I:0 S:3]
+2026-08-18 04:23:03 | INFO | oracle_engine | CHOLAFIN.NS | STRONG SELL | Score: 13.9 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:23:06 | INFO | fundamental_engine | COHANCE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:23:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:12 | INFO | oracle_engine | COALINDIA.NS | HOLD / NEUTRAL | Score: 53.3 [V:35 Q:9 M:4 I:0 S:1]
+2026-08-18 04:23:15 | INFO | oracle_engine | COCHINSHIP.NS | STRONG SELL | Score: 19.5 [V:0 Q:12 M:4 I:0 S:2]
+2026-08-18 04:23:15 | INFO | oracle_engine | COFORGE.NS | STRONG SELL | Score: 16.1 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:23:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:18 | INFO | fundamental_engine | CONCOR.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:23:19 | INFO | oracle_engine | COLPAL.NS | STRONG SELL | Score: 9.9 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:23:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:25 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:25 | INFO | oracle_engine | CAMS.NS | STRONG SELL | Score: 9.9 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:23:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:28 | INFO | oracle_engine | CONCORDBIO.NS | STRONG SELL | Score: 14.5 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:23:31 | INFO | oracle_engine | COROMANDEL.NS | STRONG SELL | Score: 14.1 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:23:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:35 | WARNING | fundamental_engine | DCF failed for CROMPTON.NS: No positive cash flow metric available
+2026-08-18 04:23:37 | WARNING | fundamental_engine | Graham failed for CROMPTON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:37 | INFO | oracle_engine | CREDITACC.NS | STRONG SELL | Score: 19.6 [V:0 Q:12 M:1 I:0 S:5]
+2026-08-18 04:23:39 | WARNING | fundamental_engine | DCF failed for CRAFTSMAN.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:23:40 | INFO | oracle_engine | CROMPTON.NS | STRONG SELL | Score: 15.0 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:23:40 | WARNING | fundamental_engine | Graham failed for CUMMINSIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:41 | INFO | fundamental_engine | CYIENT.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:23:41 | WARNING | fundamental_engine | Graham failed for CRAFTSMAN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:43 | INFO | fundamental_engine | DCMSHRIRAM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:23:44 | INFO | oracle_engine | CUMMINSIND.NS | STRONG SELL | Score: 15.1 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:23:45 | INFO | oracle_engine | CRAFTSMAN.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:23:45 | WARNING | fundamental_engine | DCF failed for DLF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:47 | INFO | fundamental_engine | DOMS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:23:47 | WARNING | fundamental_engine | Graham failed for DLF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:48 | INFO | fundamental_engine | DALBHARAT.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:23:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:48 | WARNING | fundamental_engine | DCF failed for DABUR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:50 | INFO | oracle_engine | DLF.NS | SELL | Score: 22.7 [V:0 Q:12 M:1 I:3 S:4]
+2026-08-18 04:23:51 | WARNING | fundamental_engine | Graham failed for DABUR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:52 | WARNING | fundamental_engine | DCF failed for DATAPATTNS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:52 | WARNING | fundamental_engine | DCF failed for DEEPAKFERT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:53 | WARNING | fundamental_engine | Graham failed for DATAPATTNS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:54 | INFO | oracle_engine | DABUR.NS | STRONG SELL | Score: 19.2 [V:0 Q:15 M:0 I:0 S:2]
+2026-08-18 04:23:54 | WARNING | fundamental_engine | Graham failed for DEEPAKFERT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:54 | WARNING | fundamental_engine | DCF failed for DEEPAKNTR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:56 | INFO | oracle_engine | DATAPATTNS.NS | STRONG SELL | Score: 19.1 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:23:56 | WARNING | fundamental_engine | Graham failed for DEEPAKNTR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:57 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:23:57 | INFO | oracle_engine | DEEPAKFERT.NS | SELL | Score: 20.2 [V:0 Q:15 M:0 I:0 S:3]
+2026-08-18 04:23:59 | WARNING | fundamental_engine | DCF failed for DELHIVERY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:23:59 | INFO | oracle_engine | DEEPAKNTR.NS | SELL | Score: 22.4 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:24:01 | WARNING | fundamental_engine | DCF failed for DEVYANI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:01 | WARNING | fundamental_engine | Graham failed for DELHIVERY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:02 | WARNING | fundamental_engine | DCF failed for DIVISLAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:03 | WARNING | fundamental_engine | Graham failed for DEVYANI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:03 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:04 | WARNING | fundamental_engine | DCF failed for DIXON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:04 | INFO | oracle_engine | DELHIVERY.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:24:04 | WARNING | fundamental_engine | Graham failed for DIVISLAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:05 | INFO | oracle_engine | DEVYANI.NS | STRONG SELL | Score: 19.5 [V:0 Q:12 M:3 I:0 S:3]
+2026-08-18 04:24:06 | WARNING | fundamental_engine | Graham failed for DIXON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:07 | INFO | fundamental_engine | LALPATHLAB.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:08 | INFO | oracle_engine | DIVISLAB.NS | STRONG SELL | Score: 19.8 [V:0 Q:12 M:3 I:0 S:3]
+2026-08-18 04:24:09 | INFO | oracle_engine | DIXON.NS | STRONG SELL | Score: 14.5 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:24:10 | WARNING | fundamental_engine | DCF failed for DRREDDY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:12 | WARNING | fundamental_engine | Graham failed for DRREDDY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:12 | WARNING | fundamental_engine | DCF failed for EIDPARRY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:12 | WARNING | fundamental_engine | DCF failed for EIHOTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:14 | WARNING | fundamental_engine | DCF failed for EICHERMOT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:14 | WARNING | fundamental_engine | Graham failed for EIDPARRY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:14 | WARNING | fundamental_engine | Graham failed for EIHOTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:15 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:15 | INFO | oracle_engine | DRREDDY.NS | STRONG SELL | Score: 13.2 [V:0 Q:9 M:3 I:0 S:0]
+2026-08-18 04:24:15 | WARNING | fundamental_engine | Graham failed for EICHERMOT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:17 | INFO | oracle_engine | EIHOTEL.NS | STRONG SELL | Score: 14.4 [V:0 Q:9 M:0 I:0 S:4]
+2026-08-18 04:24:18 | INFO | oracle_engine | EIDPARRY.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:24:18 | INFO | fundamental_engine | ELECON.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:19 | INFO | oracle_engine | EICHERMOT.NS | STRONG SELL | Score: 17.4 [V:0 Q:9 M:4 I:0 S:3]
+2026-08-18 04:24:21 | WARNING | fundamental_engine | DCF failed for ELGIEQUIP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:21 | INFO | fundamental_engine | EMCURE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:23 | WARNING | fundamental_engine | DCF failed for EMAMILTD.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:24 | WARNING | fundamental_engine | DCF failed for EMMVEE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:24 | WARNING | fundamental_engine | Graham failed for ELGIEQUIP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:24 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:25 | WARNING | fundamental_engine | Graham failed for EMAMILTD.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:26 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:26 | WARNING | fundamental_engine | Graham failed for EMMVEE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:26 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:27 | WARNING | fundamental_engine | DCF failed for ENDURANCE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:28 | INFO | oracle_engine | ELGIEQUIP.NS | SELL | Score: 26.8 [V:0 Q:15 M:4 I:0 S:5]
+2026-08-18 04:24:29 | INFO | oracle_engine | EMMVEE.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:24:29 | INFO | oracle_engine | EMAMILTD.NS | STRONG SELL | Score: 16.2 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:24:29 | WARNING | fundamental_engine | Graham failed for ENDURANCE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:30 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:32 | INFO | fundamental_engine | ERIS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:32 | INFO | fundamental_engine | ESCORTS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:33 | INFO | oracle_engine | ENDURANCE.NS | SELL | Score: 26.8 [V:0 Q:15 M:4 I:0 S:5]
+2026-08-18 04:24:33 | WARNING | fundamental_engine | DCF failed for ENGINERSIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:35 | WARNING | fundamental_engine | Graham failed for ENGINERSIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:35 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:37 | WARNING | fundamental_engine | DCF failed for EXIDEIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:38 | WARNING | fundamental_engine | DCF failed for ETERNAL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:38 | WARNING | fundamental_engine | DCF failed for NYKAA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:38 | INFO | oracle_engine | ENGINERSIN.NS | SELL | Score: 21.4 [V:0 Q:12 M:4 I:0 S:4]
+2026-08-18 04:24:39 | WARNING | fundamental_engine | Graham failed for EXIDEIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:41 | WARNING | fundamental_engine | Graham failed for ETERNAL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:41 | WARNING | fundamental_engine | Graham failed for NYKAA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:44 | INFO | oracle_engine | EXIDEIND.NS | SELL | Score: 21.1 [V:0 Q:15 M:3 I:0 S:1]
+2026-08-18 04:24:46 | INFO | oracle_engine | NYKAA.NS | STRONG SELL | Score: 19.2 [V:0 Q:12 M:1 I:0 S:5]
+2026-08-18 04:24:46 | WARNING | fundamental_engine | DCF failed for FEDERALBNK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:46 | INFO | oracle_engine | ETERNAL.NS | STRONG SELL | Score: 12.5 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:24:49 | WARNING | fundamental_engine | Graham failed for FEDERALBNK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:49 | INFO | fundamental_engine | FACT.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:50 | INFO | fundamental_engine | FINCABLES.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:24:53 | WARNING | fundamental_engine | DCF failed for FSL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:54 | INFO | oracle_engine | FEDERALBNK.NS | STRONG SELL | Score: 18.0 [V:0 Q:12 M:1 I:0 S:4]
+2026-08-18 04:24:56 | WARNING | fundamental_engine | DCF failed for FIVESTAR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:56 | WARNING | fundamental_engine | DCF failed for FORCEMOT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:56 | WARNING | fundamental_engine | Graham failed for FSL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:57 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:59 | WARNING | fundamental_engine | Graham failed for FORCEMOT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:59 | WARNING | fundamental_engine | Graham failed for FIVESTAR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:24:59 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:24:59 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:01 | WARNING | fundamental_engine | DCF failed for FORTIS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:01 | INFO | oracle_engine | FSL.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:25:04 | INFO | oracle_engine | FIVESTAR.NS | STRONG SELL | Score: 12.6 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:25:04 | INFO | oracle_engine | FORCEMOT.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:25:04 | WARNING | fundamental_engine | Graham failed for FORTIS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:09 | WARNING | fundamental_engine | DCF failed for GAIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:09 | INFO | oracle_engine | FORTIS.NS | STRONG SELL | Score: 14.6 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:25:11 | WARNING | fundamental_engine | DCF failed for GMRAIRPORT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:11 | WARNING | fundamental_engine | DCF failed for GVT&D.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:12 | WARNING | fundamental_engine | Graham failed for GAIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:14 | WARNING | fundamental_engine | Graham failed for GMRAIRPORT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:14 | WARNING | fundamental_engine | Graham failed for GVT&D.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:16 | WARNING | fundamental_engine | DCF failed for GABRIEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:17 | INFO | oracle_engine | GAIL.NS | STRONG SELL | Score: 16.3 [V:0 Q:12 M:1 I:0 S:2]
+2026-08-18 04:25:19 | INFO | oracle_engine | GVT&D.NS | STRONG SELL | Score: 14.8 [V:0 Q:9 M:4 I:0 S:1]
+2026-08-18 04:25:19 | INFO | oracle_engine | GMRAIRPORT.NS | SELL | Score: 22.9 [V:0 Q:18 M:0 I:0 S:3]
+2026-08-18 04:25:19 | WARNING | fundamental_engine | Graham failed for GABRIEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:24 | WARNING | fundamental_engine | DCF failed for GALLANTT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:25 | INFO | oracle_engine | GABRIEL.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:25:25 | WARNING | fundamental_engine | DCF failed for GICRE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:25 | WARNING | fundamental_engine | DCF failed for GRSE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:27 | WARNING | fundamental_engine | Graham failed for GALLANTT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:28 | WARNING | fundamental_engine | Graham failed for GRSE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:29 | WARNING | fundamental_engine | Graham failed for GICRE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:32 | WARNING | fundamental_engine | DCF failed for GILLETTE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:32 | INFO | oracle_engine | GALLANTT.NS | SELL | Score: 20.5 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:25:33 | INFO | oracle_engine | GRSE.NS | SELL | Score: 22.6 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:25:33 | INFO | oracle_engine | GICRE.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:25:35 | WARNING | fundamental_engine | Graham failed for GILLETTE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:35 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:39 | WARNING | fundamental_engine | DCF failed for GLAND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:40 | INFO | oracle_engine | GILLETTE.NS | STRONG SELL | Score: 14.4 [V:0 Q:9 M:0 I:0 S:4]
+2026-08-18 04:25:40 | WARNING | fundamental_engine | DCF failed for GLAXO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:40 | WARNING | fundamental_engine | DCF failed for GLENMARK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:42 | WARNING | fundamental_engine | Graham failed for GLAND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:43 | WARNING | fundamental_engine | Graham failed for GLAXO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:43 | WARNING | fundamental_engine | Graham failed for GLENMARK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:44 | INFO | fundamental_engine | MEDANTA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:25:45 | INFO | oracle_engine | GLAND.NS | SELL | Score: 28.6 [V:0 Q:18 M:3 I:0 S:5]
+2026-08-18 04:25:46 | INFO | oracle_engine | GLAXO.NS | STRONG SELL | Score: 17.4 [V:0 Q:15 M:1 I:0 S:0]
+2026-08-18 04:25:46 | INFO | oracle_engine | GLENMARK.NS | SELL | Score: 21.0 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:25:46 | INFO | fundamental_engine | GODIGIT.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:25:47 | INFO | fundamental_engine | GPIL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:25:49 | INFO | fundamental_engine | GODREJIND.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:25:49 | INFO | fundamental_engine | GODREJCP.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:25:50 | WARNING | fundamental_engine | DCF failed for GODFRYPHLP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:51 | WARNING | fundamental_engine | DCF failed for GODREJPROP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:52 | WARNING | fundamental_engine | Graham failed for GODFRYPHLP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:53 | WARNING | fundamental_engine | Graham failed for GODREJPROP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:53 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:54 | WARNING | fundamental_engine | DCF failed for GRAPHITE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:54 | WARNING | fundamental_engine | DCF failed for GRANULES.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:55 | INFO | oracle_engine | GODFRYPHLP.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:25:56 | INFO | oracle_engine | GODREJPROP.NS | SELL | Score: 24.3 [V:0 Q:9 M:0 I:8 S:5]
+2026-08-18 04:25:56 | WARNING | fundamental_engine | Graham failed for GRAPHITE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:56 | WARNING | fundamental_engine | Graham failed for GRANULES.NS: 'str' object has no attribute 'get'
+2026-08-18 04:25:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:25:59 | INFO | fundamental_engine | GRAVITA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:00 | INFO | oracle_engine | GRANULES.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:26:00 | INFO | oracle_engine | GRAPHITE.NS | STRONG SELL | Score: 19.8 [V:0 Q:15 M:3 I:0 S:0]
+2026-08-18 04:26:01 | WARNING | fundamental_engine | DCF failed for GRASIM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:04 | INFO | fundamental_engine | GMDCLTD.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:04 | WARNING | fundamental_engine | Graham failed for GRASIM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:05 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:05 | WARNING | fundamental_engine | DCF failed for GESHIP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:07 | WARNING | fundamental_engine | DCF failed for FLUOROCHEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:08 | INFO | fundamental_engine | HEG.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:08 | WARNING | fundamental_engine | Graham failed for GESHIP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:08 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:09 | INFO | oracle_engine | GRASIM.NS | SELL | Score: 20.7 [V:0 Q:9 M:4 I:3 S:3]
+2026-08-18 04:26:09 | WARNING | fundamental_engine | Graham failed for FLUOROCHEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:13 | INFO | oracle_engine | GESHIP.NS | SELL | Score: 25.3 [V:0 Q:18 M:0 I:0 S:5]
+2026-08-18 04:26:14 | INFO | oracle_engine | FLUOROCHEM.NS | SELL | Score: 22.6 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:26:14 | WARNING | fundamental_engine | DCF failed for HBLENGINE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:15 | WARNING | fundamental_engine | DCF failed for HCLTECH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:17 | WARNING | fundamental_engine | Graham failed for HBLENGINE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:18 | INFO | fundamental_engine | HDFCAMC.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:18 | WARNING | fundamental_engine | Graham failed for HCLTECH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:20 | WARNING | fundamental_engine | DCF failed for HDBFS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:22 | INFO | oracle_engine | HBLENGINE.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:26:23 | WARNING | fundamental_engine | Graham failed for HDBFS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:23 | INFO | oracle_engine | HCLTECH.NS | STRONG SELL | Score: 15.4 [V:0 Q:13 M:1 I:0 S:0]
+2026-08-18 04:26:23 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:25 | WARNING | fundamental_engine | DCF failed for HDFCBANK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:27 | INFO | fundamental_engine | HDFCLIFE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:27 | INFO | oracle_engine | HDBFS.NS | STRONG SELL | Score: 19.7 [V:0 Q:12 M:4 I:0 S:2]
+2026-08-18 04:26:28 | WARNING | fundamental_engine | Graham failed for HDFCBANK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:30 | WARNING | fundamental_engine | DCF failed for HFCL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:31 | INFO | fundamental_engine | HAVELLS.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:26:32 | INFO | fundamental_engine | HEROMOTOCO.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:33 | WARNING | fundamental_engine | Graham failed for HFCL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:34 | INFO | oracle_engine | HDFCBANK.NS | STRONG SELL | Score: 14.6 [V:0 Q:11 M:2 I:0 S:1]
+2026-08-18 04:26:37 | INFO | fundamental_engine | HSCL.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:26:38 | INFO | oracle_engine | HFCL.NS | SELL | Score: 28.6 [V:0 Q:18 M:3 I:0 S:5]
+2026-08-18 04:26:38 | INFO | fundamental_engine | HINDALCO.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:26:38 | WARNING | fundamental_engine | DCF failed for HEXT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:41 | WARNING | fundamental_engine | Graham failed for HEXT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:43 | WARNING | fundamental_engine | DCF failed for HAL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:45 | WARNING | fundamental_engine | DCF failed for HINDCOPPER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:45 | WARNING | fundamental_engine | DCF failed for HINDPETRO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:46 | INFO | oracle_engine | HEXT.NS | STRONG SELL | Score: 13.2 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:26:46 | WARNING | fundamental_engine | Graham failed for HAL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:46 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:48 | WARNING | fundamental_engine | Graham failed for HINDCOPPER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:48 | WARNING | fundamental_engine | Graham failed for HINDPETRO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:51 | INFO | oracle_engine | HAL.NS | SELL | Score: 23.4 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:26:52 | INFO | oracle_engine | HINDPETRO.NS | STRONG SELL | Score: 16.5 [V:0 Q:15 M:0 I:0 S:0]
+2026-08-18 04:26:52 | INFO | oracle_engine | HINDCOPPER.NS | STRONG SELL | Score: 18.0 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:26:53 | WARNING | fundamental_engine | DCF failed for HINDUNILVR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:56 | WARNING | fundamental_engine | Graham failed for HINDUNILVR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:26:58 | WARNING | fundamental_engine | DCF failed for HINDZINC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:59 | WARNING | fundamental_engine | DCF failed for HOMEFIRST.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:59 | WARNING | fundamental_engine | DCF failed for POWERINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:26:59 | INFO | oracle_engine | HINDUNILVR.NS | STRONG SELL | Score: 15.9 [V:0 Q:9 M:1 I:4 S:1]
+2026-08-18 04:27:00 | WARNING | fundamental_engine | Graham failed for HINDZINC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:01 | WARNING | fundamental_engine | Graham failed for POWERINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:01 | WARNING | fundamental_engine | Graham failed for HOMEFIRST.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:02 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:02 | INFO | fundamental_engine | HONASA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:27:03 | INFO | oracle_engine | HINDZINC.NS | SELL | Score: 28.4 [V:0 Q:18 M:4 I:0 S:4]
+2026-08-18 04:27:03 | INFO | oracle_engine | POWERINDIA.NS | STRONG SELL | Score: 18.7 [V:0 Q:9 M:3 I:0 S:5]
+2026-08-18 04:27:04 | INFO | oracle_engine | HOMEFIRST.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:27:06 | INFO | fundamental_engine | HONAUT.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:27:07 | WARNING | fundamental_engine | DCF failed for HUDCO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:08 | WARNING | fundamental_engine | DCF failed for HYUNDAI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:08 | WARNING | fundamental_engine | DCF failed for ICICIBANK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:09 | INFO | fundamental_engine | ICICIGI.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:27:09 | WARNING | fundamental_engine | Graham failed for HUDCO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:09 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:10 | WARNING | fundamental_engine | Graham failed for HYUNDAI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:10 | WARNING | fundamental_engine | Graham failed for ICICIBANK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:11 | INFO | fundamental_engine | ICICIAMC.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:27:12 | INFO | oracle_engine | HUDCO.NS | STRONG SELL | Score: 14.0 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:27:13 | INFO | oracle_engine | HYUNDAI.NS | STRONG SELL | Score: 17.1 [V:0 Q:12 M:3 I:0 S:0]
+2026-08-18 04:27:13 | INFO | oracle_engine | ICICIBANK.NS | STRONG SELL | Score: 11.1 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:27:16 | WARNING | fundamental_engine | DCF failed for ICICIPRULI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:16 | WARNING | fundamental_engine | DCF failed for IDBI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:17 | WARNING | fundamental_engine | DCF failed for IDFCFIRSTB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:17 | WARNING | fundamental_engine | Graham failed for ICICIPRULI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:18 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:18 | WARNING | fundamental_engine | Graham failed for IDBI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:18 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:19 | WARNING | fundamental_engine | Graham failed for IDFCFIRSTB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:19 | WARNING | fundamental_engine | DCF failed for IFCI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:20 | WARNING | fundamental_engine | Graham failed for IFCI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:20 | WARNING | oracle_engine | DOL/DFL failed for ICICIPRULI.NS: unsupported operand type(s) for -: 'NoneType' and 'float'
+2026-08-18 04:27:20 | INFO | oracle_engine | ICICIPRULI.NS | SELL | Score: 22.7 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:27:21 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:21 | INFO | oracle_engine | IDBI.NS | STRONG SELL | Score: 10.9 [V:0 Q:9 M:0 I:0 S:1]
+2026-08-18 04:27:22 | INFO | oracle_engine | IDFCFIRSTB.NS | STRONG SELL | Score: 14.2 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:27:25 | INFO | oracle_engine | IFCI.NS | STRONG SELL | Score: 17.4 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:27:25 | WARNING | fundamental_engine | DCF failed for IIFL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:26 | WARNING | fundamental_engine | DCF failed for IRCON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:26 | WARNING | fundamental_engine | DCF failed for IRB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:27 | WARNING | fundamental_engine | Graham failed for IIFL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:28 | WARNING | fundamental_engine | Graham failed for IRCON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:29 | WARNING | fundamental_engine | Graham failed for IRB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:29 | INFO | oracle_engine | IIFL.NS | STRONG SELL | Score: 17.8 [V:0 Q:9 M:3 I:0 S:4]
+2026-08-18 04:27:30 | WARNING | fundamental_engine | DCF failed for ITCHOTELS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:30 | INFO | oracle_engine | IRCON.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:27:31 | INFO | oracle_engine | IRB.NS | STRONG SELL | Score: 17.4 [V:0 Q:15 M:1 I:0 S:0]
+2026-08-18 04:27:31 | WARNING | fundamental_engine | Graham failed for ITCHOTELS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:32 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:32 | INFO | fundamental_engine | ITC.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:27:34 | INFO | fundamental_engine | INDGN.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:27:35 | INFO | oracle_engine | ITCHOTELS.NS | STRONG SELL | Score: 14.1 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:27:35 | WARNING | fundamental_engine | DCF failed for ITI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:36 | WARNING | fundamental_engine | DCF failed for INDIACEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:37 | WARNING | fundamental_engine | Graham failed for ITI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:38 | WARNING | fundamental_engine | Graham failed for INDIACEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:39 | WARNING | fundamental_engine | DCF failed for INDIAMART.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:40 | INFO | oracle_engine | ITI.NS | SELL | Score: 23.6 [V:0 Q:15 M:4 I:3 S:0]
+2026-08-18 04:27:40 | WARNING | fundamental_engine | DCF failed for INDIANB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:40 | WARNING | fundamental_engine | Graham failed for INDIAMART.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:41 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:42 | WARNING | fundamental_engine | Graham failed for INDIANB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:42 | INFO | oracle_engine | INDIACEM.NS | STRONG SELL | Score: 17.9 [V:0 Q:15 M:0 I:0 S:1]
+2026-08-18 04:27:43 | INFO | fundamental_engine | IEX.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:27:43 | INFO | oracle_engine | INDIAMART.NS | STRONG SELL | Score: 19.4 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:27:45 | INFO | oracle_engine | INDIANB.NS | STRONG SELL | Score: 16.7 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:27:47 | WARNING | fundamental_engine | DCF failed for IOC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:47 | WARNING | fundamental_engine | DCF failed for INDHOTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:49 | WARNING | fundamental_engine | Graham failed for INDHOTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:49 | WARNING | fundamental_engine | Graham failed for IOC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:49 | WARNING | fundamental_engine | DCF failed for IOB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:49 | WARNING | fundamental_engine | DCF failed for IRCTC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:51 | WARNING | fundamental_engine | Graham failed for IOB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:52 | WARNING | fundamental_engine | Graham failed for IRCTC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:27:53 | INFO | oracle_engine | IOC.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:27:53 | INFO | oracle_engine | INDHOTEL.NS | STRONG SELL | Score: 17.2 [V:0 Q:15 M:0 I:0 S:1]
+2026-08-18 04:27:54 | INFO | oracle_engine | IOB.NS | STRONG SELL | Score: 14.0 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:27:54 | INFO | oracle_engine | IRCTC.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:27:58 | WARNING | fundamental_engine | DCF failed for IRFC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:27:58 | WARNING | fundamental_engine | DCF failed for IREDA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:00 | WARNING | fundamental_engine | DCF failed for IGL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:00 | WARNING | fundamental_engine | Graham failed for IRFC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:01 | WARNING | fundamental_engine | DCF failed for INDUSTOWER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:01 | WARNING | fundamental_engine | Graham failed for IREDA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:02 | WARNING | fundamental_engine | Graham failed for IGL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:03 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:03 | WARNING | fundamental_engine | Graham failed for INDUSTOWER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:03 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:05 | INFO | oracle_engine | IREDA.NS | STRONG SELL | Score: 9.9 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:28:05 | INFO | oracle_engine | IRFC.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:4 I:0 S:1]
+2026-08-18 04:28:07 | INFO | oracle_engine | IGL.NS | SELL | Score: 22.6 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:28:08 | INFO | oracle_engine | INDUSTOWER.NS | SELL | Score: 26.0 [V:0 Q:15 M:4 I:0 S:5]
+2026-08-18 04:28:12 | INFO | fundamental_engine | INOXWIND.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:12 | WARNING | fundamental_engine | DCF failed for NAUKRI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:12 | WARNING | fundamental_engine | DCF failed for INDUSINDBK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:15 | WARNING | fundamental_engine | DCF failed for INFY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:15 | WARNING | fundamental_engine | Graham failed for NAUKRI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:16 | WARNING | fundamental_engine | Graham failed for INDUSINDBK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:16 | INFO | fundamental_engine | INTELLECT.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:19 | WARNING | fundamental_engine | Graham failed for INFY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:20 | INFO | fundamental_engine | INDIGO.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:28:21 | INFO | oracle_engine | INDUSINDBK.NS | SELL | Score: 21.3 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:28:21 | INFO | oracle_engine | NAUKRI.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:28:24 | INFO | oracle_engine | INFY.NS | SELL | Score: 27.1 [V:0 Q:21 M:4 I:0 S:0]
+2026-08-18 04:28:27 | WARNING | fundamental_engine | DCF failed for IGIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:28 | WARNING | fundamental_engine | DCF failed for IKS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:28 | WARNING | fundamental_engine | DCF failed for IPCALAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:30 | WARNING | fundamental_engine | Graham failed for IGIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:31 | WARNING | fundamental_engine | Graham failed for IKS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:31 | WARNING | fundamental_engine | Graham failed for IPCALAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:31 | WARNING | fundamental_engine | DCF failed for JKCEMENT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:37 | INFO | oracle_engine | IGIL.NS | SELL | Score: 22.9 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:28:37 | INFO | oracle_engine | IPCALAB.NS | SELL | Score: 27.0 [V:0 Q:18 M:2 I:0 S:5]
+2026-08-18 04:28:37 | INFO | oracle_engine | IKS.NS | STRONG SELL | Score: 16.2 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:28:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:41 | INFO | fundamental_engine | JKTYRE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:42 | INFO | fundamental_engine | JMFINANCIL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:43 | INFO | oracle_engine | JKCEMENT.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:0 I:0 S:5]
+2026-08-18 04:28:48 | INFO | fundamental_engine | JSWENERGY.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:52 | WARNING | fundamental_engine | DCF failed for JSWCEMENT.NS: No positive cash flow metric available
+2026-08-18 04:28:52 | WARNING | fundamental_engine | DCF failed for JSWDULUX.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:53 | INFO | fundamental_engine | JSWINFRA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:28:55 | WARNING | fundamental_engine | Graham failed for JSWDULUX.NS: 'str' object has no attribute 'get'
+2026-08-18 04:28:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:28:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:03 | INFO | oracle_engine | JBMA.NS | STRONG SELL | Score: 13.2 [V:0 Q:12 M:0 I:0 S:0]
+2026-08-18 04:29:03 | INFO | oracle_engine | JSWDULUX.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:29:03 | INFO | oracle_engine | JSWCEMENT.NS | SELL | Score: 22.0 [V:0 Q:15 M:0 I:0 S:5]
+2026-08-18 04:29:08 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:14 | INFO | oracle_engine | JSWSTEEL.NS | SELL | Score: 33.7 [V:16 Q:9 M:1 I:2 S:2]
+2026-08-18 04:29:18 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:21 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:25 | INFO | oracle_engine | J&KBANK.NS | HOLD / NEUTRAL | Score: 48.4 [V:35 Q:9 M:0 I:0 S:0]
+2026-08-18 04:29:26 | INFO | oracle_engine | JAINREC.NS | STRONG SELL | Score: 13.2 [V:0 Q:12 M:0 I:0 S:0]
+2026-08-18 04:29:28 | INFO | oracle_engine | JPPOWER.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:29:30 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:32 | INFO | fundamental_engine | JSL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:29:37 | INFO | oracle_engine | JINDALSAW.NS | STRONG SELL | Score: 16.2 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:29:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:48 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:50 | INFO | oracle_engine | JINDALSTEL.NS | STRONG SELL | Score: 15.9 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:29:51 | INFO | oracle_engine | JIOFIN.NS | SELL | Score: 21.6 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:29:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:29:55 | INFO | fundamental_engine | JUBLPHARMA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:29:55 | INFO | oracle_engine | JUBLFOOD.NS | SELL | Score: 21.3 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:29:55 | INFO | fundamental_engine | JWL.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:29:57 | INFO | oracle_engine | JUBLINGREA.NS | STRONG SELL | Score: 19.6 [V:0 Q:12 M:1 I:0 S:5]
+2026-08-18 04:30:00 | INFO | fundamental_engine | KEI.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:04 | INFO | fundamental_engine | KPITTECH.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:30:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:13 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:16 | INFO | oracle_engine | JYOTICNC.NS | STRONG SELL | Score: 19.6 [V:0 Q:12 M:1 I:0 S:5]
+2026-08-18 04:30:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:20 | INFO | oracle_engine | KPRMILL.NS | SELL | Score: 20.5 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:30:21 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:22 | INFO | fundamental_engine | KALYANKJIL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:25 | INFO | oracle_engine | KAJARIACER.NS | SELL | Score: 29.3 [V:0 Q:18 M:4 I:0 S:5]
+2026-08-18 04:30:27 | INFO | oracle_engine | KPIL.NS | SELL | Score: 22.3 [V:0 Q:15 M:4 I:0 S:2]
+2026-08-18 04:30:27 | INFO | fundamental_engine | KAYNES.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:35 | INFO | fundamental_engine | KFINTECH.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:30:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:39 | INFO | fundamental_engine | KOTAKBANK.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:41 | WARNING | fundamental_engine | Graham failed for KIRLOSENG.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:41 | INFO | oracle_engine | KARURVYSYA.NS | HOLD / NEUTRAL | Score: 43.8 [V:22 Q:12 M:1 I:0 S:5]
+2026-08-18 04:30:42 | INFO | oracle_engine | KEC.NS | STRONG SELL | Score: 12.0 [V:0 Q:9 M:0 I:0 S:2]
+2026-08-18 04:30:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:45 | INFO | fundamental_engine | KIMS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:46 | INFO | oracle_engine | KIRLOSENG.NS | STRONG SELL | Score: 11.8 [V:0 Q:9 M:1 I:0 S:1]
+2026-08-18 04:30:49 | INFO | fundamental_engine | LTF.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:30:50 | WARNING | fundamental_engine | DCF failed for LTTS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:52 | WARNING | fundamental_engine | DCF failed for LGEINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:52 | WARNING | fundamental_engine | Graham failed for LTTS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:54 | WARNING | fundamental_engine | Graham failed for LGEINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:54 | WARNING | fundamental_engine | DCF failed for LICHSGFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:56 | INFO | oracle_engine | LTTS.NS | STRONG SELL | Score: 13.3 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:30:56 | INFO | oracle_engine | LGEINDIA.NS | STRONG SELL | Score: 15.7 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:30:57 | WARNING | fundamental_engine | Graham failed for LICHSGFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:30:57 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:30:58 | WARNING | fundamental_engine | DCF failed for LTFOODS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:01 | WARNING | fundamental_engine | Graham failed for LTFOODS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:01 | INFO | oracle_engine | LICHSGFIN.NS | STRONG SELL | Score: 17.3 [V:0 Q:12 M:1 I:0 S:3]
+2026-08-18 04:31:03 | INFO | oracle_engine | LTFOODS.NS | STRONG SELL | Score: 15.6 [V:0 Q:9 M:3 I:0 S:2]
+2026-08-18 04:31:04 | WARNING | fundamental_engine | DCF failed for LTM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:06 | WARNING | fundamental_engine | Graham failed for LTM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:06 | WARNING | fundamental_engine | DCF failed for LT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:08 | WARNING | fundamental_engine | Graham failed for LT.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:08 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:08 | INFO | fundamental_engine | LATENTVIEW.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:31:09 | INFO | oracle_engine | LTM.NS | STRONG SELL | Score: 18.2 [V:0 Q:9 M:4 I:0 S:4]
+2026-08-18 04:31:11 | WARNING | fundamental_engine | DCF failed for LAURUSLABS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:14 | INFO | oracle_engine | LT.NS | SELL | Score: 23.0 [V:0 Q:13 M:4 I:0 S:4]
+2026-08-18 04:31:14 | WARNING | fundamental_engine | Graham failed for LAURUSLABS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:15 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:17 | WARNING | fundamental_engine | DCF failed for THELEELA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:19 | INFO | oracle_engine | LAURUSLABS.NS | SELL | Score: 25.2 [V:0 Q:15 M:1 I:4 S:3]
+2026-08-18 04:31:20 | WARNING | fundamental_engine | Graham failed for THELEELA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:20 | WARNING | fundamental_engine | DCF failed for LEMONTREE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:24 | WARNING | fundamental_engine | DCF failed for LENSKART.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:25 | INFO | oracle_engine | THELEELA.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:31:27 | WARNING | fundamental_engine | Graham failed for LENSKART.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:27 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:30 | WARNING | fundamental_engine | DCF failed for LICI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:32 | INFO | oracle_engine | LENSKART.NS | STRONG SELL | Score: 19.6 [V:0 Q:12 M:4 I:0 S:2]
+2026-08-18 04:31:33 | WARNING | fundamental_engine | Graham failed for LICI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:37 | WARNING | fundamental_engine | DCF failed for LINDEINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:38 | INFO | fundamental_engine | LLOYDSME.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:31:38 | WARNING | fundamental_engine | Graham failed for LEMONTREE.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:31:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:39 | WARNING | oracle_engine | DOL/DFL failed for LICI.NS: unsupported operand type(s) for -: 'NoneType' and 'float'
+2026-08-18 04:31:39 | INFO | oracle_engine | LICI.NS | SELL | Score: 24.1 [V:0 Q:15 M:4 I:2 S:1]
+2026-08-18 04:31:40 | WARNING | fundamental_engine | Graham failed for LINDEINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:40 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:44 | INFO | oracle_engine | LEMONTREE.NS | STRONG SELL | Score: 18.0 [V:0 Q:15 M:1 I:0 S:1]
+2026-08-18 04:31:45 | INFO | oracle_engine | LINDEINDIA.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:31:50 | WARNING | fundamental_engine | DCF failed for LODHA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:51 | WARNING | fundamental_engine | DCF failed for LUPIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:52 | WARNING | fundamental_engine | DCF failed for MMTC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:52 | WARNING | fundamental_engine | Graham failed for LODHA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:53 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:54 | WARNING | fundamental_engine | Graham failed for LUPIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:55 | WARNING | fundamental_engine | Graham failed for MMTC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:31:57 | WARNING | fundamental_engine | DCF failed for MRF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:31:59 | INFO | oracle_engine | LODHA.NS | STRONG SELL | Score: 14.3 [V:0 Q:12 M:0 I:0 S:1]
+2026-08-18 04:32:00 | WARNING | fundamental_engine | Graham failed for MRF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:00 | INFO | oracle_engine | MMTC.NS | STRONG SELL | Score: 19.8 [V:0 Q:15 M:3 I:0 S:0]
+2026-08-18 04:32:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:02 | INFO | oracle_engine | LUPIN.NS | STRONG SELL | Score: 15.8 [V:0 Q:12 M:0 I:0 S:2]
+2026-08-18 04:32:05 | INFO | oracle_engine | MRF.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:32:07 | INFO | fundamental_engine | MGL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:32:11 | WARNING | fundamental_engine | DCF failed for M&MFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:14 | WARNING | fundamental_engine | DCF failed for MANAPPURAM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:14 | WARNING | fundamental_engine | Graham failed for M&MFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:14 | WARNING | fundamental_engine | DCF failed for M&M.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:14 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:16 | WARNING | fundamental_engine | Graham failed for MANAPPURAM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:16 | WARNING | fundamental_engine | Graham failed for M&M.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:17 | INFO | oracle_engine | M&MFIN.NS | STRONG SELL | Score: 17.0 [V:0 Q:12 M:1 I:0 S:3]
+2026-08-18 04:32:19 | INFO | oracle_engine | MANAPPURAM.NS | STRONG SELL | Score: 14.8 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:32:19 | INFO | oracle_engine | M&M.NS | STRONG SELL | Score: 17.0 [V:0 Q:10 M:4 I:0 S:2]
+2026-08-18 04:32:20 | WARNING | fundamental_engine | DCF failed for MRPL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:22 | WARNING | fundamental_engine | Graham failed for MRPL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:23 | WARNING | fundamental_engine | DCF failed for MANKIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:25 | INFO | oracle_engine | MRPL.NS | SELL | Score: 20.5 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:32:25 | WARNING | fundamental_engine | Graham failed for MANKIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:25 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:29 | INFO | oracle_engine | MANKIND.NS | SELL | Score: 28.1 [V:0 Q:15 M:1 I:6 S:4]
+2026-08-18 04:32:30 | WARNING | fundamental_engine | DCF failed for MARUTI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:30 | INFO | fundamental_engine | MARICO.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:32:32 | WARNING | fundamental_engine | Graham failed for MARUTI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:32 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:34 | WARNING | fundamental_engine | DCF failed for MFSL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:35 | INFO | oracle_engine | MARUTI.NS | STRONG SELL | Score: 12.7 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:32:36 | WARNING | fundamental_engine | Graham failed for MFSL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:36 | WARNING | fundamental_engine | DCF failed for MAXHEALTH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:38 | WARNING | fundamental_engine | Graham failed for MAXHEALTH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:39 | WARNING | fundamental_engine | DCF failed for MEESHO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:42 | WARNING | fundamental_engine | Graham failed for MEESHO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:42 | INFO | oracle_engine | MAXHEALTH.NS | STRONG SELL | Score: 19.9 [V:0 Q:15 M:0 I:0 S:3]
+2026-08-18 04:32:43 | WARNING | fundamental_engine | DCF failed for MAZDOCK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:44 | WARNING | fundamental_engine | Graham failed for MAZDOCK.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:45 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:45 | INFO | oracle_engine | MFSL.NS | SELL | Score: 22.4 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:32:45 | INFO | oracle_engine | MEESHO.NS | STRONG SELL | Score: 18.1 [V:0 Q:12 M:4 I:0 S:1]
+2026-08-18 04:32:47 | WARNING | fundamental_engine | DCF failed for MINDACORP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:47 | INFO | oracle_engine | MAZDOCK.NS | SELL | Score: 22.3 [V:0 Q:15 M:3 I:2 S:0]
+2026-08-18 04:32:49 | INFO | fundamental_engine | MOTILALOFS.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:32:49 | WARNING | fundamental_engine | Graham failed for MINDACORP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:49 | WARNING | fundamental_engine | DCF failed for MSUMI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:51 | WARNING | fundamental_engine | Graham failed for MSUMI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:32:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:32:52 | INFO | fundamental_engine | MCX.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:32:52 | INFO | oracle_engine | MINDACORP.NS | STRONG SELL | Score: 17.4 [V:0 Q:15 M:1 I:0 S:0]
+2026-08-18 04:32:55 | INFO | fundamental_engine | MUTHOOTFIN.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:32:55 | INFO | fundamental_engine | MPHASIS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:32:56 | INFO | fundamental_engine | NATCOPHARM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:32:58 | INFO | oracle_engine | MSUMI.NS | STRONG SELL | Score: 16.0 [V:0 Q:12 M:0 I:0 S:3]
+2026-08-18 04:33:02 | WARNING | fundamental_engine | DCF failed for NCC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:03 | WARNING | fundamental_engine | DCF failed for NBCC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:03 | WARNING | fundamental_engine | DCF failed for NHPC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:04 | WARNING | fundamental_engine | DCF failed for NLCINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:05 | WARNING | fundamental_engine | Graham failed for NCC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:05 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:06 | WARNING | fundamental_engine | Graham failed for NBCC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:06 | WARNING | fundamental_engine | Graham failed for NHPC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:06 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:07 | WARNING | fundamental_engine | Graham failed for NLCINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:10 | INFO | oracle_engine | NCC.NS | SELL | Score: 21.0 [V:0 Q:12 M:4 I:0 S:4]
+2026-08-18 04:33:11 | INFO | oracle_engine | NBCC.NS | STRONG SELL | Score: 17.1 [V:0 Q:12 M:0 I:0 S:4]
+2026-08-18 04:33:11 | INFO | oracle_engine | NHPC.NS | STRONG SELL | Score: 13.8 [V:0 Q:9 M:1 I:0 S:3]
+2026-08-18 04:33:12 | INFO | oracle_engine | NLCINDIA.NS | STRONG SELL | Score: 11.0 [V:0 Q:9 M:0 I:0 S:1]
+2026-08-18 04:33:17 | WARNING | fundamental_engine | DCF failed for NMDC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:18 | WARNING | fundamental_engine | DCF failed for NSLNISP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:19 | WARNING | fundamental_engine | DCF failed for NTPC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:19 | WARNING | fundamental_engine | DCF failed for NTPCGREEN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:20 | WARNING | fundamental_engine | Graham failed for NMDC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:21 | WARNING | fundamental_engine | Graham failed for NSLNISP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:21 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:22 | WARNING | fundamental_engine | Graham failed for NTPC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:22 | WARNING | fundamental_engine | Graham failed for NTPCGREEN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:25 | INFO | oracle_engine | NMDC.NS | SELL | Score: 22.8 [V:0 Q:12 M:4 I:4 S:1]
+2026-08-18 04:33:26 | INFO | oracle_engine | NSLNISP.NS | STRONG SELL | Score: 14.7 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:33:27 | INFO | oracle_engine | NTPC.NS | STRONG SELL | Score: 17.3 [V:0 Q:12 M:1 I:0 S:3]
+2026-08-18 04:33:32 | WARNING | fundamental_engine | DCF failed for NH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:33 | WARNING | fundamental_engine | DCF failed for NATIONALUM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:34 | WARNING | fundamental_engine | DCF failed for NAVA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:35 | WARNING | fundamental_engine | Graham failed for NH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:35 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:36 | WARNING | fundamental_engine | Graham failed for NATIONALUM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:37 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:38 | WARNING | fundamental_engine | Graham failed for NAVA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:38 | WARNING | utils | News fetch failed for NTPCGREEN.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:33:41 | INFO | oracle_engine | NH.NS | STRONG SELL | Score: 13.0 [V:0 Q:9 M:0 I:0 S:3]
+2026-08-18 04:33:41 | INFO | oracle_engine | NATIONALUM.NS | SELL | Score: 30.5 [V:0 Q:18 M:4 I:3 S:3]
+2026-08-18 04:33:41 | INFO | oracle_engine | NTPCGREEN.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:33:43 | INFO | oracle_engine | NAVA.NS | SELL | Score: 26.8 [V:0 Q:15 M:4 I:0 S:5]
+2026-08-18 04:33:46 | INFO | fundamental_engine | NESTLEIND.NS REJECTED — F-Score 0/9 < 3 gate
+2026-08-18 04:33:46 | INFO | fundamental_engine | NETWEB.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:33:48 | WARNING | fundamental_engine | DCF failed for NAVINFLUOR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:50 | WARNING | fundamental_engine | DCF failed for NEULANDLAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:50 | INFO | fundamental_engine | NEWGEN.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:33:51 | WARNING | fundamental_engine | Graham failed for NAVINFLUOR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:51 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:52 | WARNING | fundamental_engine | DCF failed for NAM-INDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:53 | WARNING | fundamental_engine | Graham failed for NEULANDLAB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:53 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:55 | WARNING | fundamental_engine | Graham failed for NAM-INDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:56 | INFO | oracle_engine | NAVINFLUOR.NS | STRONG SELL | Score: 20.0 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:33:56 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:33:58 | WARNING | fundamental_engine | DCF failed for NIVABUPA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:33:58 | INFO | oracle_engine | NEULANDLAB.NS | STRONG SELL | Score: 18.1 [V:0 Q:12 M:3 I:0 S:1]
+2026-08-18 04:34:00 | INFO | oracle_engine | NAM-INDIA.NS | STRONG SELL | Score: 13.2 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:34:00 | INFO | fundamental_engine | NUVAMA.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:34:00 | WARNING | fundamental_engine | Graham failed for NIVABUPA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:05 | WARNING | fundamental_engine | DCF failed for NUVOCO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:06 | WARNING | oracle_engine | DOL/DFL failed for NIVABUPA.NS: unsupported operand type(s) for -: 'NoneType' and 'float'
+2026-08-18 04:34:06 | INFO | oracle_engine | NIVABUPA.NS | STRONG SELL | Score: 15.5 [V:0 Q:12 M:0 I:0 S:2]
+2026-08-18 04:34:07 | WARNING | fundamental_engine | DCF failed for OBEROIRLTY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:07 | WARNING | fundamental_engine | DCF failed for ONGC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:08 | WARNING | fundamental_engine | Graham failed for NUVOCO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:09 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:10 | WARNING | fundamental_engine | Graham failed for OBEROIRLTY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:10 | INFO | fundamental_engine | OIL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:34:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:10 | WARNING | fundamental_engine | Graham failed for ONGC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:13 | INFO | oracle_engine | NUVOCO.NS | STRONG SELL | Score: 16.5 [V:0 Q:15 M:0 I:0 S:0]
+2026-08-18 04:34:15 | INFO | oracle_engine | ONGC.NS | SELL | Score: 23.8 [V:0 Q:18 M:2 I:0 S:2]
+2026-08-18 04:34:15 | INFO | oracle_engine | OBEROIRLTY.NS | STRONG SELL | Score: 19.5 [V:0 Q:12 M:2 I:0 S:4]
+2026-08-18 04:34:17 | WARNING | fundamental_engine | DCF failed for OLAELEC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:19 | INFO | fundamental_engine | ONESOURCE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:34:20 | WARNING | fundamental_engine | Graham failed for OLAELEC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:20 | WARNING | fundamental_engine | DCF failed for OLECTRA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:22 | WARNING | fundamental_engine | DCF failed for PAYTM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:23 | WARNING | fundamental_engine | Graham failed for OLECTRA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:24 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:25 | INFO | oracle_engine | OLAELEC.NS | STRONG SELL | Score: 14.7 [V:0 Q:9 M:4 I:0 S:1]
+2026-08-18 04:34:25 | WARNING | fundamental_engine | Graham failed for PAYTM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:34:26 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:29 | INFO | oracle_engine | OLECTRA.NS | STRONG SELL | Score: 19.1 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:34:31 | INFO | oracle_engine | PAYTM.NS | STRONG SELL | Score: 16.4 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:34:32 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:36 | INFO | fundamental_engine | PGEL.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:34:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:38 | INFO | oracle_engine | OFSS.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:34:42 | INFO | fundamental_engine | PNBHOUSING.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:34:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:43 | INFO | oracle_engine | POLICYBZR.NS | STRONG SELL | Score: 17.6 [V:0 Q:9 M:3 I:0 S:4]
+2026-08-18 04:34:48 | INFO | oracle_engine | PCBL.NS | SELL | Score: 21.8 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:34:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:54 | INFO | oracle_engine | PIIND.NS | STRONG SELL | Score: 19.4 [V:0 Q:9 M:0 I:4 S:5]
+2026-08-18 04:34:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:55 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:34:59 | INFO | oracle_engine | PTCIL.NS | STRONG SELL | Score: 14.1 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:35:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:00 | INFO | oracle_engine | PVRINOX.NS | SELL | Score: 32.0 [V:0 Q:21 M:4 I:0 S:5]
+2026-08-18 04:35:03 | INFO | oracle_engine | PAGEIND.NS | SELL | Score: 21.7 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:35:03 | INFO | fundamental_engine | PATANJALI.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:35:04 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:07 | INFO | oracle_engine | PARADEEP.NS | SELL | Score: 22.9 [V:6 Q:9 M:1 I:0 S:5]
+2026-08-18 04:35:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:12 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:13 | INFO | oracle_engine | PERSISTENT.NS | STRONG SELL | Score: 12.5 [V:0 Q:9 M:1 I:0 S:2]
+2026-08-18 04:35:14 | INFO | oracle_engine | PETRONET.NS | SELL | Score: 20.5 [V:0 Q:15 M:4 I:0 S:0]
+2026-08-18 04:35:15 | INFO | oracle_engine | PFIZER.NS | STRONG SELL | Score: 17.2 [V:0 Q:12 M:4 I:0 S:0]
+2026-08-18 04:35:16 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:19 | INFO | oracle_engine | PHOENIXLTD.NS | STRONG SELL | Score: 18.7 [V:0 Q:12 M:0 I:0 S:5]
+2026-08-18 04:35:22 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:23 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:24 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:25 | INFO | oracle_engine | PIDILITIND.NS | STRONG SELL | Score: 19.4 [V:0 Q:9 M:4 I:0 S:5]
+2026-08-18 04:35:25 | INFO | oracle_engine | PWL.NS | SELL | Score: 23.1 [V:0 Q:18 M:1 I:0 S:2]
+2026-08-18 04:35:26 | INFO | oracle_engine | PINELABS.NS | SELL | Score: 25.3 [V:0 Q:15 M:4 I:0 S:4]
+2026-08-18 04:35:28 | INFO | fundamental_engine | PPLPHARMA.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:35:29 | INFO | fundamental_engine | POLYMED.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:35:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:29 | INFO | fundamental_engine | POLYCAB.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:35:32 | INFO | oracle_engine | PIRAMALFIN.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:35:33 | INFO | fundamental_engine | POWERGRID.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:35:36 | INFO | fundamental_engine | PREMIERENE.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:35:36 | INFO | fundamental_engine | PRESTIGE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:35:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:41 | INFO | oracle_engine | POONAWALLA.NS | SELL | Score: 22.7 [V:0 Q:12 M:4 I:0 S:5]
+2026-08-18 04:35:42 | INFO | oracle_engine | PFC.NS | HOLD / NEUTRAL | Score: 56.1 [V:35 Q:12 M:0 I:0 S:4]
+2026-08-18 04:35:45 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:45 | INFO | fundamental_engine | RBLBANK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:35:46 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:47 | INFO | oracle_engine | PFOCUS.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:35:49 | INFO | oracle_engine | PNB.NS | HOLD / NEUTRAL | Score: 61.4 [V:35 Q:15 M:3 I:0 S:3]
+2026-08-18 04:35:50 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:51 | INFO | fundamental_engine | RHIM.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:35:53 | INFO | oracle_engine | RRKABEL.NS | STRONG SELL | Score: 17.1 [V:0 Q:9 M:3 I:0 S:4]
+2026-08-18 04:35:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:35:57 | INFO | oracle_engine | RECLTD.NS | HOLD / NEUTRAL | Score: 48.4 [V:35 Q:9 M:0 I:0 S:0]
+2026-08-18 04:36:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:01 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:02 | INFO | oracle_engine | RITES.NS | SELL | Score: 24.7 [V:0 Q:15 M:4 I:0 S:4]
+2026-08-18 04:36:02 | WARNING | fundamental_engine | DCF failed for RAILTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:03 | INFO | oracle_engine | RADICO.NS | SELL | Score: 24.1 [V:0 Q:15 M:3 I:3 S:1]
+2026-08-18 04:36:04 | INFO | oracle_engine | RVNL.NS | SELL | Score: 20.0 [V:0 Q:12 M:4 I:0 S:3]
+2026-08-18 04:36:05 | WARNING | fundamental_engine | Graham failed for RAILTEL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:05 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:06 | INFO | fundamental_engine | RAINBOW.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:07 | INFO | oracle_engine | RAILTEL.NS | STRONG SELL | Score: 17.6 [V:0 Q:9 M:4 I:0 S:3]
+2026-08-18 04:36:08 | WARNING | fundamental_engine | DCF failed for RKFORGE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:09 | WARNING | fundamental_engine | DCF failed for REDINGTON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:10 | INFO | fundamental_engine | RELIANCE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:10 | WARNING | fundamental_engine | Graham failed for RKFORGE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:10 | INFO | fundamental_engine | RPOWER.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:11 | WARNING | fundamental_engine | Graham failed for REDINGTON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:11 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:13 | INFO | fundamental_engine | SBFC.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:13 | INFO | oracle_engine | RKFORGE.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:36:15 | INFO | oracle_engine | REDINGTON.NS | SELL | Score: 21.3 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:36:16 | WARNING | fundamental_engine | DCF failed for SBICARD.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:17 | WARNING | fundamental_engine | DCF failed for SBILIFE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:18 | WARNING | fundamental_engine | Graham failed for SBICARD.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:18 | WARNING | fundamental_engine | DCF failed for SJVN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:18 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:19 | WARNING | fundamental_engine | Graham failed for SBILIFE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:20 | WARNING | fundamental_engine | DCF failed for SRF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:20 | WARNING | fundamental_engine | Graham failed for SJVN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:21 | WARNING | oracle_engine | DOL/DFL failed for SBILIFE.NS: unsupported operand type(s) for -: 'NoneType' and 'float'
+2026-08-18 04:36:21 | INFO | oracle_engine | SBILIFE.NS | STRONG SELL | Score: 14.4 [V:0 Q:9 M:0 I:0 S:4]
+2026-08-18 04:36:22 | INFO | oracle_engine | SBICARD.NS | STRONG SELL | Score: 19.6 [V:0 Q:9 M:0 I:4 S:5]
+2026-08-18 04:36:22 | WARNING | fundamental_engine | Graham failed for SRF.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:23 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:23 | INFO | oracle_engine | SJVN.NS | STRONG SELL | Score: 14.8 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:36:25 | INFO | fundamental_engine | SAILIFE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:26 | WARNING | fundamental_engine | DCF failed for SAGILITY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:26 | INFO | oracle_engine | SRF.NS | SELL | Score: 22.9 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:36:26 | INFO | fundamental_engine | SAMMAANCAP.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:36:28 | WARNING | fundamental_engine | Graham failed for SAGILITY.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:28 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:29 | INFO | fundamental_engine | SAPPHIRE.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:36:30 | WARNING | fundamental_engine | DCF failed for MOTHERSON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:31 | INFO | oracle_engine | SAGILITY.NS | SELL | Score: 22.9 [V:0 Q:15 M:1 I:0 S:5]
+2026-08-18 04:36:31 | WARNING | fundamental_engine | DCF failed for SARDAEN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:32 | WARNING | fundamental_engine | Graham failed for MOTHERSON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:32 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:34 | WARNING | fundamental_engine | Graham failed for SARDAEN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:34 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:34 | WARNING | fundamental_engine | DCF failed for SAREGAMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:35 | INFO | oracle_engine | MOTHERSON.NS | SELL | Score: 21.5 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:36:36 | WARNING | fundamental_engine | DCF failed for SCHAEFFLER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:36 | WARNING | fundamental_engine | Graham failed for SAREGAMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:36 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:37 | INFO | oracle_engine | SARDAEN.NS | SELL | Score: 25.4 [V:0 Q:15 M:4 I:0 S:4]
+2026-08-18 04:36:38 | WARNING | fundamental_engine | Graham failed for SCHAEFFLER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:38 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:40 | INFO | oracle_engine | SAREGAMA.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:36:41 | INFO | oracle_engine | SCHAEFFLER.NS | STRONG SELL | Score: 15.8 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:36:42 | WARNING | fundamental_engine | DCF failed for SCHNEIDER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:43 | WARNING | fundamental_engine | DCF failed for SCI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:43 | WARNING | fundamental_engine | Graham failed for SCHNEIDER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:44 | WARNING | fundamental_engine | Graham failed for SCI.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:45 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:45 | WARNING | fundamental_engine | DCF failed for SHREECEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:45 | WARNING | fundamental_engine | DCF failed for SHRIRAMFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:47 | WARNING | fundamental_engine | Graham failed for SHREECEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:47 | WARNING | fundamental_engine | Graham failed for SHRIRAMFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:47 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:47 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:48 | INFO | oracle_engine | SCI.NS | STRONG SELL | Score: 15.7 [V:0 Q:9 M:4 I:0 S:2]
+2026-08-18 04:36:50 | INFO | oracle_engine | SHREECEM.NS | STRONG SELL | Score: 15.1 [V:0 Q:12 M:0 I:0 S:2]
+2026-08-18 04:36:50 | INFO | oracle_engine | SHRIRAMFIN.NS | SELL | Score: 21.1 [V:0 Q:12 M:4 I:0 S:4]
+2026-08-18 04:36:55 | WARNING | fundamental_engine | DCF failed for ENRIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:56 | WARNING | fundamental_engine | DCF failed for SIEMENS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:57 | WARNING | fundamental_engine | Graham failed for ENRIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:57 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:36:58 | WARNING | fundamental_engine | Graham failed for SIEMENS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:36:58 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:00 | INFO | oracle_engine | ENRIN.NS | STRONG SELL | Score: 14.4 [V:0 Q:9 M:3 I:0 S:1]
+2026-08-18 04:37:01 | INFO | oracle_engine | SIEMENS.NS | SELL | Score: 28.6 [V:0 Q:18 M:3 I:0 S:5]
+2026-08-18 04:37:01 | WARNING | oracle_engine | DOL/DFL failed for SCHNEIDER.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:37:01 | INFO | oracle_engine | SCHNEIDER.NS | STRONG SELL | Score: 14.7 [V:0 Q:9 M:4 I:0 S:0]
+2026-08-18 04:37:03 | WARNING | fundamental_engine | F-Score failed for SHYAMMETL.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:37:05 | WARNING | fundamental_engine | DCF failed for SIGNATURE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:05 | WARNING | fundamental_engine | DCF failed for SOLARINDS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:06 | WARNING | fundamental_engine | DCF failed for SOBHA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:06 | WARNING | fundamental_engine | DCF failed for SHYAMMETL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:06 | WARNING | fundamental_engine | Graham failed for SIGNATURE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:07 | WARNING | fundamental_engine | Graham failed for SOLARINDS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:07 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:08 | WARNING | fundamental_engine | Graham failed for SOBHA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:08 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:08 | WARNING | fundamental_engine | Graham failed for SHYAMMETL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:09 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:10 | INFO | oracle_engine | SIGNATURE.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:37:11 | INFO | oracle_engine | SOBHA.NS | SELL | Score: 21.6 [V:0 Q:15 M:1 I:0 S:4]
+2026-08-18 04:37:12 | INFO | oracle_engine | SHYAMMETL.NS | HOLD / NEUTRAL | Score: 35.2 [V:0 Q:27 M:0 I:0 S:5]
+2026-08-18 04:37:15 | WARNING | fundamental_engine | DCF failed for SONACOMS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:17 | WARNING | fundamental_engine | DCF failed for SONATSOFTW.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:17 | WARNING | fundamental_engine | DCF failed for STARHEALTH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:17 | WARNING | fundamental_engine | Graham failed for SONACOMS.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:17 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:18 | WARNING | fundamental_engine | Graham failed for STARHEALTH.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:19 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:19 | WARNING | fundamental_engine | Graham failed for SONATSOFTW.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:20 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:20 | INFO | oracle_engine | SONACOMS.NS | STRONG SELL | Score: 10.2 [V:0 Q:9 M:0 I:0 S:0]
+2026-08-18 04:37:21 | INFO | oracle_engine | STARHEALTH.NS | STRONG SELL | Score: 15.5 [V:0 Q:12 M:1 I:0 S:1]
+2026-08-18 04:37:22 | INFO | oracle_engine | SONATSOFTW.NS | STRONG SELL | Score: 14.8 [V:0 Q:9 M:1 I:0 S:4]
+2026-08-18 04:37:23 | WARNING | utils | News fetch failed for SOLARINDS.NS: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-18 04:37:23 | INFO | fundamental_engine | SBIN.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:37:25 | INFO | oracle_engine | SOLARINDS.NS | STRONG SELL | Score: 16.5 [V:0 Q:12 M:3 I:0 S:0]
+2026-08-18 04:37:27 | WARNING | fundamental_engine | DCF failed for SUMICHEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:27 | WARNING | fundamental_engine | DCF failed for SAIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:28 | WARNING | fundamental_engine | DCF failed for SUNPHARMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:29 | WARNING | fundamental_engine | Graham failed for SUMICHEM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:29 | WARNING | fundamental_engine | Graham failed for SAIL.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:29 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:30 | WARNING | fundamental_engine | DCF failed for SUNTV.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:31 | WARNING | fundamental_engine | Graham failed for SUNPHARMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:32 | INFO | oracle_engine | SAIL.NS | SELL | Score: 20.4 [V:0 Q:9 M:4 I:3 S:3]
+2026-08-18 04:37:33 | INFO | oracle_engine | SUMICHEM.NS | SELL | Score: 23.5 [V:0 Q:15 M:4 I:0 S:3]
+2026-08-18 04:37:33 | WARNING | fundamental_engine | Graham failed for SUNTV.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:33 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:35 | INFO | oracle_engine | SUNPHARMA.NS | STRONG SELL | Score: 11.9 [V:0 Q:8 M:0 I:0 S:3]
+2026-08-18 04:37:36 | INFO | oracle_engine | SUNTV.NS | STRONG SELL | Score: 14.1 [V:0 Q:12 M:1 I:0 S:0]
+2026-08-18 04:37:37 | WARNING | fundamental_engine | DCF failed for SUNDARMFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:38 | WARNING | fundamental_engine | DCF failed for SUPREMEIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:39 | WARNING | fundamental_engine | Graham failed for SUNDARMFIN.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:39 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:40 | WARNING | fundamental_engine | Graham failed for SUPREMEIND.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:40 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:40 | WARNING | fundamental_engine | DCF failed for SPLPETRO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:40 | WARNING | fundamental_engine | DCF failed for SUZLON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:42 | WARNING | fundamental_engine | Graham failed for SPLPETRO.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:42 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:42 | WARNING | fundamental_engine | Graham failed for SUZLON.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:42 | INFO | oracle_engine | SUNDARMFIN.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:37:43 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:43 | INFO | oracle_engine | SUPREMEIND.NS | SELL | Score: 26.0 [V:0 Q:12 M:4 I:2 S:5]
+2026-08-18 04:37:45 | INFO | oracle_engine | SPLPETRO.NS | SELL | Score: 29.3 [V:0 Q:18 M:4 I:0 S:5]
+2026-08-18 04:37:46 | INFO | oracle_engine | SUZLON.NS | STRONG SELL | Score: 16.9 [V:0 Q:9 M:3 I:0 S:4]
+2026-08-18 04:37:46 | INFO | fundamental_engine | SWIGGY.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:37:47 | WARNING | fundamental_engine | DCF failed for SWANCORP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:48 | INFO | fundamental_engine | SYNGENE.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:37:49 | WARNING | fundamental_engine | Graham failed for SWANCORP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:49 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:49 | INFO | fundamental_engine | TBOTEK.NS REJECTED — F-Score 1/9 < 3 gate
+2026-08-18 04:37:50 | WARNING | fundamental_engine | DCF failed for SYRMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:52 | WARNING | fundamental_engine | Graham failed for SYRMA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:52 | INFO | oracle_engine | SWANCORP.NS | STRONG SELL | Score: 10.8 [V:0 Q:9 M:1 I:0 S:0]
+2026-08-18 04:37:52 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:52 | WARNING | fundamental_engine | DCF failed for TVSMOTOR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:54 | WARNING | fundamental_engine | Graham failed for TVSMOTOR.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:54 | WARNING | fundamental_engine | DCF failed for TATACAP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:54 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:54 | INFO | oracle_engine | SYRMA.NS | SELL | Score: 20.5 [V:0 Q:12 M:3 I:0 S:4]
+2026-08-18 04:37:55 | INFO | fundamental_engine | TATACHEM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:37:56 | WARNING | fundamental_engine | Graham failed for TATACAP.NS: 'str' object has no attribute 'get'
+2026-08-18 04:37:57 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:37:57 | INFO | oracle_engine | TVSMOTOR.NS | STRONG SELL | Score: 18.4 [V:0 Q:12 M:1 I:0 S:4]
+2026-08-18 04:37:58 | INFO | fundamental_engine | TCS.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:37:59 | INFO | oracle_engine | TATACAP.NS | STRONG SELL | Score: 16.9 [V:0 Q:12 M:1 I:0 S:3]
+2026-08-18 04:38:01 | INFO | fundamental_engine | TATACONSUM.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:38:01 | WARNING | fundamental_engine | DCF failed for TATACOMM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:02 | INFO | fundamental_engine | TATAELXSI.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:38:03 | WARNING | fundamental_engine | Graham failed for TATACOMM.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:03 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:38:06 | INFO | fundamental_engine | TMPV.NS REJECTED — F-Score 2/9 < 3 gate
+2026-08-18 04:38:06 | WARNING | fundamental_engine | DCF failed for TMCV.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:07 | WARNING | fundamental_engine | DCF failed for TATAINVEST.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:08 | INFO | oracle_engine | TATACOMM.NS | STRONG SELL | Score: 15.9 [V:0 Q:9 M:3 I:0 S:3]
+2026-08-18 04:38:09 | WARNING | fundamental_engine | Graham failed for TMCV.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:38:10 | WARNING | fundamental_engine | Graham failed for TATAINVEST.NS: 'str' object has no attribute 'get'
+2026-08-18 04:38:10 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:38:13 | WARNING | fundamental_engine | DCF failed for TATAPOWER.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:05 | INFO | sector_map | Loading sector map from cache (age: 0d).
+2026-08-18 04:39:05 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 04:39:13 | WARNING | fundamental_engine | DCF failed for 360ONE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:16 | WARNING | fundamental_engine | Graham failed for 360ONE.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:16 | ERROR | technical_engine | Technical analysis failed for 360ONE.NS: Too Many Requests. Rate limited. Try after a while.
+2026-08-18 04:39:20 | INFO | oracle_engine | 360ONE.NS | STRONG SELL | Score: 15.4 [V:0 Q:9 M:0 I:0 S:5]
+2026-08-18 04:39:28 | WARNING | fundamental_engine | DCF failed for 3MINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:31 | WARNING | fundamental_engine | Graham failed for 3MINDIA.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:31 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:39:36 | INFO | oracle_engine | 3MINDIA.NS | STRONG SELL | Score: 16.3 [V:0 Q:9 M:1 I:0 S:5]
+2026-08-18 04:39:42 | WARNING | fundamental_engine | DCF failed for ABB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:45 | WARNING | fundamental_engine | Graham failed for ABB.NS: 'str' object has no attribute 'get'
+2026-08-18 04:39:45 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:39:50 | INFO | oracle_engine | ABB.NS | SELL | Score: 22.0 [V:0 Q:12 M:3 I:0 S:5]
+2026-08-18 04:39:57 | WARNING | fundamental_engine | DCF failed for ACC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:40:00 | WARNING | fundamental_engine | Graham failed for ACC.NS: 'str' object has no attribute 'get'
+2026-08-18 04:40:00 | INFO | utils | Loading prices from cache (27214ae25abf_prices_1y_1d_1.parquet)
+2026-08-18 04:50:54 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 04:50:55 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 04:51:46 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 04:51:47 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:01:09 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:01:17 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:01:27 | ERROR | yfinance | 
+1 Failed download:
+2026-08-18 05:01:27 | ERROR | yfinance | ['COALINDIA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-08-18 05:03:32 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:03:41 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:08:19 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
+2026-08-18 05:08:26 | INFO | utils | Loading prices from cache (928d158296bb_prices_1mo_1d_1.parquet)
