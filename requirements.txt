@@ -16,8 +16,3 @@ streamlit==1.54.0
 xgboost==3.2.0
 yahooquery==2.4.1
 yfinance==1.2.0
-streamlit>=1.30.0
-pandas>=2.0.0
-numpy>=1.24.0
-yfinance>=0.2.0
-plotly>=5.15.0
